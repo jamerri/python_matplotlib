@@ -29,7 +29,7 @@ for x,y in zip(X, Y1):
 
 for x,y in zip(X, Y2):
     # ha:horizontal alignment
-    plt.text(x , -y - 0.05, '-%.2f' % y, ha='center', va='top')
+    plt.text(x, -y - 0.05, '-%.2f' % y, ha='center', va='top')
 
 plt.xlim(-.5, n)
 plt.xticks(())
